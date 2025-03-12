@@ -74,7 +74,7 @@ body {
     color: #333;
 }
 
-.post button {
+.post .delete-button {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -86,6 +86,31 @@ body {
     cursor: pointer;
 }
 
-.post button:hover {
+.post .delete-button:hover {
     background-color: #cc0000;
+}
+
+.like-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.like-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.like-button:hover {
+    background-color: #45a049;
+}
+
+.like-count {
+    color: #666;
+    font-size: 14px;
 }
